@@ -26,4 +26,5 @@ class App < Sinatra::Base
     if multiply == "multiply"
     answer = "#{@product_1} * #{@product_2}"
   end
+  end
 end
