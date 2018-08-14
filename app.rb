@@ -25,4 +25,8 @@ class App < Sinatra::Base
     @product_3 = params[:solution]
     "#{@product_1} * #{@product_2} = #{@product_3}"
   end
+
+  get '/multiply/:num1/:num2' do
+    (params[:num1])
+  end
 end
